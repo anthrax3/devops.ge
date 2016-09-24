@@ -1,0 +1,5 @@
+baseurl = "http://devops.ge/"
+languageCode = "en-us"
+title = "Devops.ge"
+[Params]
+  Author = "Shekhar Gulati"
