@@ -1,5 +1,25 @@
-baseurl = "http://devops.ge/"
-languageCode = "en-us"
-title = "Devops.ge"
-[Params]
-  Author = "Shekhar Gulati"
+baseurl = "http://devops.ge"
+languageCode = "en"
+title = "Tornike Zedginidze"
+theme = "hemingway"
+#copyright = "&copy; Devops.ge 2016"
+disqusShortname = "toko"
+googleAnalytics = ""
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/tokozedg"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/Zedginidze"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
