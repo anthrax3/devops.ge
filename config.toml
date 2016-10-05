@@ -1,25 +1,26 @@
 baseurl = "http://devops.ge"
-languageCode = "en"
-title = "Tornike Zedginidze"
-theme = "hemingway"
-#copyright = "&copy; Devops.ge 2016"
+title = "DevOps.ge | Tornike Zedginidze"
+theme = "vec"
+languageCode = "en-us"
+paginate = 10
 disqusShortname = "toko"
 googleAnalytics = ""
 
+[menu]
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "mailto:tokozedg@gmail.com"
+  [[menu.main]]
+    name = "shelf"
+    weight = 2
+    url = "/shelf"
+    
 [params]
-
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
-
-[[params.social]]
-url = "https://github.com/tokozedg"
-fa_icon = "fa-github"
-
-[[params.social]]
-url = "https://twitter.com/Zedginidze"
-fa_icon = "fa-twitter"
-
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+  Keywords = "key, aha"
+  Description = "There are some words to describe your site"
+  
+  GithubID = "tokozedg"
+  TwitterID = "Zedginidze"
+  LinkedInID = "tokozedg"
+  GoogleplusID = "101511740319661471581"

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  
+  {{ partial "header.html" . }}
+  <div class="content">
+    <section class="posts">
+      {{ $paginator := .Paginate  (where .Data.Pages "Type" "post") }} 
+      {{ range $paginator.Pages }}
+      <div class="posts-archive">
+        <time class="posts-archive-month">{{ dateFormat "Jan 2006" .Date }}</time>
+        <ol class="posts-list">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </ol>
+      </div>
+      {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+  </div>
+  
+  {{ partial "footer.html" . }}
+  
+  {{ partial "analytics.html" . }}
+
+</body>
+
+</html>

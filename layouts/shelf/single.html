@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  
+  {{ partial "header.html" . }}
+  <div class="content">
+    <section class="posts">
+	<div style="width: 80%; margin-left: auto; margin-right: auto">
+	{{ partial "to_read" . }}
+	<hr>
+	{{ partial "favorite" . }}
+	</div>
+    </section>
+  </div>
+  
+  {{ partial "footer.html" . }}
+  
+  {{ partial "analytics.html" . }}
+
+</body>
+
+</html>
