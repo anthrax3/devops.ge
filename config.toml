@@ -4,17 +4,17 @@ theme = "vec"
 languageCode = "en-us"
 paginate = 10
 disqusShortname = "toko"
-googleAnalytics = ""
+googleAnalytics = "UA-85259301-1"
 
 [menu]
-  [[menu.main]]
-    name = "contact"
-    weight = 1
-    url = "mailto:tokozedg@gmail.com"
   [[menu.main]]
     name = "shelf"
     weight = 2
     url = "/shelf"
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "mailto:tokozedg@gmail.com"
     
 [params]
   Keywords = "key, aha"

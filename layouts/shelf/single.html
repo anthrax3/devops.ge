@@ -10,15 +10,18 @@
 <body>
   
   {{ partial "header.html" . }}
-  <div class="content">
-    <section class="posts">
-	<div style="width: 80%; margin-left: auto; margin-right: auto">
-	{{ partial "to_read" . }}
-	<hr>
-	{{ partial "favorite" . }}
+  <div class="content" style="max-width: 100%">
+	<h3>Reading List</h3>
+	<hr class="pretty">
+	<div style="width: 50%; margin-left: auto; margin-right: auto">
+		{{ partial "to_read" . }}
 	</div>
-    </section>
-  </div>
+	<h3>Reviews</h3>
+	<hr class="pretty">
+	<div style="width: 50%; margin-left: auto; margin-right: auto">
+		{{ partial "favorite" . }}
+	</div>
+   </div>
   
   {{ partial "footer.html" . }}
   
