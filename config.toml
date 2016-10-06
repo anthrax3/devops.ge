@@ -1,5 +1,5 @@
 baseurl = "http://devops.ge"
-title = "toko"
+title = "devops.ge"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
@@ -17,3 +17,4 @@ googleAnalytics = "UA-85259301-1"
   TwitterID = "Zedginidze"
   LinkedInID = "tokozedg"
   GoogleplusID = "101511740319661471581"
+  homeDir = "toko"
