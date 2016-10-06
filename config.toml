@@ -1,5 +1,5 @@
 baseurl = "http://devops.ge"
-title = "DevOps.ge | Tornike Zedginidze"
+title = "toko"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
@@ -8,18 +8,11 @@ googleAnalytics = "UA-85259301-1"
 
 [menu]
   [[menu.main]]
-    name = "shelf"
-    weight = 2
-    url = "/shelf"
-  [[menu.main]]
-    name = "contact"
+    name = "e-shelf"
     weight = 1
-    url = "mailto:tokozedg@gmail.com"
-    
+    url = "/shelf"
+
 [params]
-  Keywords = "key, aha"
-  Description = "There are some words to describe your site"
-  
   GithubID = "tokozedg"
   TwitterID = "Zedginidze"
   LinkedInID = "tokozedg"
