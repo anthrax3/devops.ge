@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  
+  {{ partial "header.html" . }}
+  <div class="content" style="max-width: 100%">
+	<h3 style="font-family: initial">reading list</h3>
+	<hr class="pretty">
+	<div style="width: 50%; margin-left: auto; margin-right: auto">
+		<div id="w48911dc5d7387d4feb05fdf18149471c"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=Tornike.Zedginidze&theID=w48911dc5d7387d4feb05fdf18149471c"></script><noscript><a href="http://www.librarything.com/profile/Tornike.Zedginidze">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
+	</div>
+	<h3 style="font-family: initial">starred</h3>
+	<hr class="pretty">
+	<div style="width: 50%; margin-left: auto; margin-right: auto">
+		<div id="wfe714a9c0e2ed5f4bc1feb60a81726ca"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=Tornike.Zedginidze&theID=wfe714a9c0e2ed5f4bc1feb60a81726ca"></script><noscript><a href="http://www.librarything.com/profile/Tornike.Zedginidze">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
+	</div>
+   </div>
+  
+  {{ partial "footer.html" . }}
+  
+  {{ partial "analytics.html" . }}
+
+</body>
+
+</html>

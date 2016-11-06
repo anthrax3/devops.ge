@@ -8,9 +8,9 @@ googleAnalytics = "UA-85259301-1"
 
 [menu]
   [[menu.main]]
-    name = "e-shelf"
+    name = "library"
     weight = 1
-    url = "/shelf"
+    url = "/library"
 
 [params]
   GithubID = "tokozedg"
