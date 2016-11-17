@@ -8,6 +8,11 @@ googleAnalytics = "UA-85259301-1"
 
 [menu]
   [[menu.main]]
+    name = "wiki"
+    weight = 1
+    url = "http://wiki.devops.ge"
+
+  [[menu.main]]
     name = "library"
     weight = 1
     url = "/library"
