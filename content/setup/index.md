@@ -1,3 +1,3 @@
 +++
-title = "~/library"
+title = "~/setup"
 +++

@@ -14,8 +14,13 @@ googleAnalytics = "UA-85259301-1"
 
   [[menu.main]]
     name = "library"
-    weight = 1
+    weight = 4
     url = "/library"
+
+  [[menu.main]]
+    name = "setup"
+    weight = 10
+    url = "/setup"
 
 [params]
   GithubID = "tokozedg"
