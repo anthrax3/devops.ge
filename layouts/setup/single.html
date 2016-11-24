@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  
+  {{ partial "header.html" . }}
+
+  <div class="content" style="max-width: 100%;">
+
+<style>
+	.setup {
+		width:50%;
+		border:none;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.setup th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.setup td {
+		border:none;
+		padding:5px;
+	}
+	.setup tr:nth-child(even) {
+	    background-color: #F0F0F0;
+	}
+	.timg {
+		max-height: 30px;
+	}
+</style>
+<center>
+<table class="setup">
+	<tbody>
+	<tr>
+		<td>OS</td>
+		<td> 
+			<a href="http://ubuntu.com/">
+				<img alt="Ubuntu" title="Ubuntu" src="/img/setup/ubuntu.png" class="timg"/> 
+			</a>
+		</td>
+	</tr>
+
+
+	<tr>
+		<td>Shell</td>
+		<td> 
+			<a href="http://fishshell.com/">
+				<img alt="Fish" title="Fish" src="/img/setup/fish.png" class="timg"/> 
+			</a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Editor</td>
+		<td> 
+			<a href="http://neovim.io/">
+				<img alt="NeoVim" title="NeoVim" src="/img/setup/neovim.png" class="timg"/> 
+			</a>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Multiplexor</td>
+		<td> 
+			<a href="http://neovim.io/">
+				<img alt="Tmux" title="Tmux" src="/img/setup/tmux.png" style="height: 30px" /> 
+			</a>
+		</td>
+	</tr>
+
+	</tbody>
+</table>	
+</center>
+
+  </div>
+  
+  {{ partial "footer.html" . }}
+  
+  {{ partial "analytics.html" . }}
+
+</body>
+
+</html>
