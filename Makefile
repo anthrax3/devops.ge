@@ -1,5 +1,5 @@
 dev:
-	hugo server --bind 0.0.0.0 --theme=vec --buildDrafts -b devops.ge -p 5000
+	hugo server --bind 0.0.0.0 --theme=vec --buildDrafts -b localhost -p 5000
 html:
 	rm -rf ~/devops.ge/public
 	hugo --theme=vec
