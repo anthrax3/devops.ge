@@ -4,7 +4,7 @@
       {{ $title := lower .Title }}
       {{ $section := lower .Section }}
       <li class="pull-left {{ if .IsHome }}current{{ end }}">
-        <a href="{{ .Site.BaseURL }}">/home/{{ lower .Site.Params.homeDir }}</a>
+        <a href="{{ .Site.BaseURL }}">~/{{ lower .Site.Params.homeDir }}</a>
       </li>
       {{ range .Site.Menus.main }}
       {{ $name := lower .Name }}
@@ -12,15 +12,22 @@
         <a href="{{ .URL }}">~/{{ lower .Name }}</a>
       </li>
       {{end}}
-  
+
       <li class="pull-right">
-        <a href="https://keybase.io/{{.Site.Params.KeyBase}}" title="keybase.io"><i class="fa fa-key" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/{{.Site.Params.TwitterID}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://plus.google.com/{{.Site.Params.GoogleplusID}}/about" title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        <a href="https://github.com/{{.Site.Params.GithubID}}" title="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-        <a href="http://linkedin.com/in/{{.Site.Params.LinkedInID}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://keybase.io/{{.Site.Params.KeyBase}}"
+          title="keybase.io"><i class="fa fa-key" aria-hidden="true"></i></a>
+      </li> <li class="pull-right"> <a
+          href="https://twitter.com/{{.Site.Params.TwitterID}}"
+          title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li> <li class="pull-right"> <a
+          href="https://plus.google.com/{{.Site.Params.GoogleplusID}}/about"
+          title="Google+"><i class="fa fa-google-plus"
+        aria-hidden="true"></i></a> </li> <li class="pull-right"> <a
+      href="https://github.com/{{.Site.Params.GithubID}}" title="GitHub"><i
+        class="fa fa-github-alt" aria-hidden="true"></i></a> </li> <li
+    class="pull-right"> <a
+      href="http://linkedin.com/in/{{.Site.Params.LinkedInID}}"
+      title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </li>
 
-    </ul>
-  </nav>
-</header>
+    </ul> </nav> </header>
