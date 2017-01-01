@@ -1,4 +1,4 @@
-baseurl = "http://devops.ge"
+baseurl = "/"
 title = "devops.ge"
 theme = "vec"
 languageCode = "en-us"
