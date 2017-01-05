@@ -7,10 +7,11 @@ disqusShortname = "toko"
 googleAnalytics = "UA-85259301-1"
 
 [menu]
+
   [[menu.main]]
-    name = "wiki"
+    name = "setup"
     weight = 10
-    url = "http://wiki.devops.ge"
+    url = "/setup"
 
   [[menu.main]]
     name = "library"
@@ -18,9 +19,15 @@ googleAnalytics = "UA-85259301-1"
     url = "/library"
 
   [[menu.main]]
-    name = "setup"
+    name = "wiki"
+    weight = 2
+    url = "http://wiki.devops.ge"
+
+  [[menu.main]]
+    name = "cheats"
     weight = 1
-    url = "/setup"
+    url = "/cheats"
+
 
 [params]
   GithubID = "tokozedg"

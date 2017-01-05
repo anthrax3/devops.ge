@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, h1 {
+  font-family: 'Ubuntu', sans-serif !important;;
+}
+
 hr.pretty {
   border: 0;
   height: 1px;
@@ -27,4 +33,28 @@ header li:hover, header .current{
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
+}
+
+/*.cheats {*/
+  /*max-width: 50%;*/
+/*}*/
+
+.cheats tt {
+  border-left: 2px solid #871c6f;
+  padding: 3px;
+  display: inline-block;
+  background: #e7f2fa;
+}
+
+.cheats .section {
+  max-width: 400px;
+  position: relative;
+  float: left;
+  margin-right: 50px;
+}
+.cheats .section h1 {
+  box-shadow: 2px 3px;
+  text-align: center;
+  font-weight: 100;
+  background-color: #ffdd57;
 }
