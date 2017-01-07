@@ -35,19 +35,20 @@ header li:hover, header .current{
   transition: all 1s ease;
 }
 
-/*.cheats {*/
-  /*max-width: 50%;*/
-/*}*/
+.cheats {
+  min-width: 1200px;
+}
 
 .cheats tt {
   border-left: 2px solid #871c6f;
-  padding: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
   display: inline-block;
   background: #e7f2fa;
 }
 
 .cheats .section {
-  max-width: 400px;
+  min-width: 350px;
   position: relative;
   float: left;
   margin-right: 50px;
