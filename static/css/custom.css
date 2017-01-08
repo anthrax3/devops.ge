@@ -49,6 +49,7 @@ header li:hover, header .current{
 
 .cheats .section {
   min-width: 350px;
+  max-width: 350px;
   position: relative;
   float: left;
   margin-right: 50px;
