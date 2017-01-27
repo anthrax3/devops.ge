@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/cheats/kak/</loc>
+  </url>
+  
+  <url>
+    <loc>/cheats/tmux/</loc>
+  </url>
+  
+  <url>
+    <loc>/cheats/vim/</loc>
+  </url>
+  
+  <url>
+    <loc>/library/</loc>
+  </url>
+  
+  <url>
+    <loc>/setup/</loc>
+  </url>
+  
+</urlset>

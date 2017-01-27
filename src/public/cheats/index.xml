@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheats on devops.ge</title>
+    <link>/cheats/</link>
+    <description>Recent content in Cheats on devops.ge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/cheats/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kakoune</title>
+      <link>/cheats/kak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheats/kak/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;session&#34;&gt;
+&lt;h1&gt;Session&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;kak &lt;span class=&#34;pre&#34;&gt;-s&lt;/span&gt; NAME&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Start new session named NAME&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;kak &lt;span class=&#34;pre&#34;&gt;-l&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;List session&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;kak &lt;span class=&#34;pre&#34;&gt;-c&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Connect to session NAME&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;general&#34;&gt;
+&lt;h1&gt;General&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;&amp;lt;c&amp;gt;-o&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Disable completion for this insert&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;&amp;lt;c&amp;gt;-r&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Paste register followed next&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;&amp;lt;a&amp;gt;-;&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Normal mode for single command&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;movement&#34;&gt;
+&lt;h1&gt;Movement&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;&amp;lt;a&amp;gt;-[wbetf]&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Same as W/B/E/T/F in vim&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>/cheats/tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheats/tmux/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;tricks&#34;&gt;
+&lt;h1&gt;Tricks&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;{ }&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;swap panes&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;( )&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;switch sessions&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;!&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;break pane into new window&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;layouts&#34;&gt;
+&lt;h1&gt;Layouts&lt;/h1&gt;
+&lt;p&gt;main-vertical:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++-------+---------+
+|       |         |
+|       |         |
+|       +---------+
+|       |         |
+|       |         |
+|       +---------+
+|       |         |
+|       |         |
++-------+---------+
+&lt;/pre&gt;
+&lt;p&gt;main-horizontal:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++-----------------+
+|                 |
+|                 |
+|                 |
++-----+-----+-----+
+|     |     |     |
+|     |     |     |
+|     |     |     |
+|     |     |     |
++-----+-----+-----+
+&lt;/pre&gt;
+&lt;p&gt;even-vertical:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+&lt;/pre&gt;
+&lt;p&gt;even-horizontal:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++--+--+--+--+--+
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
++--+--+--+--+--+
+&lt;/pre&gt;
+&lt;p&gt;tiled:&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++--------+--------+
+|        |        |
+|        |        |
++-----------------+
+|        |        |
+|        |        |
++--------+--------+
+|                 |
++-----------------+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;custom-layouts&#34;&gt;
+&lt;h1&gt;Custom Layouts&lt;/h1&gt;
+&lt;p&gt;H&lt;/p&gt;
+&lt;p&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;e2bf,274x76,0,0{90x76,0,0,2,90x76,91,0[90x38,91,0,3,90x37,91,39,5],92x76,&lt;/span&gt;
+182,0,4}&lt;/tt&gt;&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++------+-------+------+
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      +-------+      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
++------+-------+------+
+&lt;/pre&gt;
+&lt;p&gt;Ultra&lt;/p&gt;
+&lt;p&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;84ea,273x60,0,0{161x60,0,0[161x50,0,0,8,161x9,0,51,13],111x60,162,0[111x25,&lt;/span&gt;
+162,0,9,111x24,162,26,14,111x9,162,51,10]}&lt;/tt&gt;&lt;/p&gt;
+&lt;pre class=&#34;literal-block&#34;&gt;
++------------+--------+
+|            |        |
+|            |        |
+|            |        |
+|            +--------+
+|            |        |
+|            |        |
+|            |        |
++---------------------+
+|            |        |
++------------+--------+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>/cheats/vim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheats/vim/</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;div class=&#34;section&#34; id=&#34;core&#34;&gt;
+&lt;h1&gt;Core&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;&amp;lt;C&amp;gt;-o&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;in insert mode switch to normal for 1 command&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;marks&#34;&gt;
+&lt;h1&gt;Marks&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;ma&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;toggle marks&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;m-&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;clear all marks&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;]&#39; [&#39;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;jump to prev/next mark start of line&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;spell&#34;&gt;
+&lt;h1&gt;Spell&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zg&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;add word&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;z=&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;suggestion&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;[s&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;next misspelled word&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;gq&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;wrap visual selection&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;folding&#34;&gt;
+&lt;h1&gt;Folding&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;za / zc&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;open / close cursor fold&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zm / zr&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;global fold/unfold by 1 level&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zR&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;unfold all&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zj / zk&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;navigate between folds&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zi&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;toggle folding&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section&#34; id=&#34;practical-vim&#34;&gt;
+&lt;h1&gt;Practical Vim&lt;/h1&gt;
+&lt;dl class=&#34;docutils&#34;&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;c-h,&lt;/span&gt; &lt;span class=&#34;pre&#34;&gt;c-w,&lt;/span&gt; &lt;span class=&#34;pre&#34;&gt;c-u&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;in insert mode delete char, word or line&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;aw/ap iw/ip/it&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;operator around word/paragraph or inner tag&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;zz&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;middle current line&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;c-r0&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;paste in insert mode without distracting&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;&lt;span class=&#34;pre&#34;&gt;c-r*&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;user expression register to calculate and paste&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class=&#34;docutils literal&#34;&gt;gv&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;reselect last visual selection&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+version: '2'
+services:
+  hugo:
+    image: tokozedg/hugo
+    volumes:
+      - ./src/:/src
+      - ./output/:/output
+    environment:
+      - HUGO_THEME=vec
+    restart: always
+  web:
+    image: sebp/lighttpd
+    volumes:
+      - ./output:/var/www/localhost/htdocs
+    ports:
+      - 80:80
+    restart: always

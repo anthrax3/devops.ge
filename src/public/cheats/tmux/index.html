@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Tmux &middot; devops.ge </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.16-DEV" />
+
+
+<link rel="stylesheet" href="/css/vec.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<link href="" rel="alternate" type="application/rss+xml" title="devops.ge" />
+
+</head>
+
+<body>
+  <header>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/</a>
+      </li>
+      
+      
+      <li class="pull-left current">
+        <a href="/cheats">~/cheats</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="http://wiki.devops.ge">~/wiki</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/library">~/library</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/setup">~/setup</a>
+      </li>
+      
+
+      <li class="pull-right">
+        <a href="https://keybase.io/toko"
+          title="keybase.io"><i class="fa fa-key" aria-hidden="true"></i></a>
+      </li> <li class="pull-right"> <a
+          href="https://twitter.com/Zedginidze"
+          title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li> <li class="pull-right"> <a
+          href="https://plus.google.com/101511740319661471581/about"
+          title="Google+"><i class="fa fa-google-plus"
+        aria-hidden="true"></i></a> </li> <li class="pull-right"> <a
+      href="https://github.com/tokozedg" title="GitHub"><i
+        class="fa fa-github-alt" aria-hidden="true"></i></a> </li> <li
+    class="pull-right"> <a
+      href="http://linkedin.com/in/tokozedg"
+      title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </li>
+
+    </ul> </nav> </header>
+
+  <div class="content cheats">
+    <section class="post">
+      <h1 class="post-title"><a href="/cheats/tmux/">Tmux</a></h1>
+      <div class="post-content">
+        <div class="document">
+
+
+<div class="section" id="tricks">
+<h1>Tricks</h1>
+<dl class="docutils">
+<dt><tt class="docutils literal">{ }</tt></dt>
+<dd>swap panes</dd>
+<dt><tt class="docutils literal">( )</tt></dt>
+<dd>switch sessions</dd>
+<dt><tt class="docutils literal">!</tt></dt>
+<dd>break pane into new window</dd>
+</dl>
+</div>
+<div class="section" id="layouts">
+<h1>Layouts</h1>
+<p>main-vertical:</p>
+<pre class="literal-block">
++-------+---------+
+|       |         |
+|       |         |
+|       +---------+
+|       |         |
+|       |         |
+|       +---------+
+|       |         |
+|       |         |
++-------+---------+
+</pre>
+<p>main-horizontal:</p>
+<pre class="literal-block">
++-----------------+
+|                 |
+|                 |
+|                 |
++-----+-----+-----+
+|     |     |     |
+|     |     |     |
+|     |     |     |
+|     |     |     |
++-----+-----+-----+
+</pre>
+<p>even-vertical:</p>
+<pre class="literal-block">
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+|                 |
++-----------------+
+</pre>
+<p>even-horizontal:</p>
+<pre class="literal-block">
++--+--+--+--+--+
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
++--+--+--+--+--+
+</pre>
+<p>tiled:</p>
+<pre class="literal-block">
++--------+--------+
+|        |        |
+|        |        |
++-----------------+
+|        |        |
+|        |        |
++--------+--------+
+|                 |
++-----------------+
+</pre>
+</div>
+<div class="section" id="custom-layouts">
+<h1>Custom Layouts</h1>
+<p>H</p>
+<p><tt class="docutils literal"><span class="pre">e2bf,274x76,0,0{90x76,0,0,2,90x76,91,0[90x38,91,0,3,90x37,91,39,5],92x76,</span>
+182,0,4}</tt></p>
+<pre class="literal-block">
++------+-------+------+
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      +-------+      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
+|      |       |      |
++------+-------+------+
+</pre>
+<p>Ultra</p>
+<p><tt class="docutils literal"><span class="pre">84ea,273x60,0,0{161x60,0,0[161x50,0,0,8,161x9,0,51,13],111x60,162,0[111x25,</span>
+162,0,9,111x24,162,26,14,111x9,162,51,10]}</tt></p>
+<pre class="literal-block">
++------------+--------+
+|            |        |
+|            |        |
+|            |        |
+|            +--------+
+|            |        |
+|            |        |
+|            |        |
++---------------------+
+|            |        |
++------------+--------+
+</pre>
+</div>
+</div>
+      </div>
+      
+      
+      
+    </section>
+    
+    
+  </div>
+  <footer>
+  <div class="footer-info">
+    <p>
+      {
+        <a href="https://gohugo.io/" title="Hugo :: A fast and modern static website engine">Hugo 0.16-DEV</a>,
+        <a href="https://github.com/IvanChou/yii.im" title="vec">Vec</a> 
+      }
+      {<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="CC BY-NC-ND 3.0">CC BY-NC-ND 3.0</a>}
+    </p>
+  </div>
+</footer>
+
+  
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-85259301-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+
+</html>
