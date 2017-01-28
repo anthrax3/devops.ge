@@ -1,3 +1,6 @@
-[submodule "themes/vec"]
-	path = themes/vec
+[submodule "src/themes/vec"]
+	path = src/themes/vec
 	url = https://github.com/IvanChou/hugo-theme-vec
+[submodule "src/content/cheats"]
+	path = src/content/cheats
+	url = https://github.com/tokozedg/cheats
