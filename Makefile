@@ -1,8 +1,7 @@
+build:
+	docker build -t registry.devops.ge:tokozedg/devops.ge .
 html:
-	docker-compose up hugo	
-
-#build:
-	#docker build -t registry.devops.ge:5000/devops.ge .
+	docker-compose up hugo
 #run: stop
 	#docker run -p 8080:80 -d --name devops.ge registry.devops.ge:5000/devops.ge
 #stop:
