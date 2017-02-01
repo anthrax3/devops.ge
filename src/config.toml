@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "devops.ge"
+title = "DevOps Notes..."
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
