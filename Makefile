@@ -1,12 +1,13 @@
+LAST_COMMIT := $(shell git rev-parse --short HEAD)
+
 build:
-	docker build -t registry.devops.ge:tokozedg/devops.ge .
+	docker build -t tokozedg/devops.ge:${LAST_COMMIT} .
+push: build
+	docker push tokozedg/devops.ge:${LAST_COMMIT}
+deploy:
+	ssh komble 'bash -s ${LAST_COMMIT}' < deploy.sh
+
 html:
 	docker-compose run --rm hugo
-#run: stop
-	#docker run -p 8080:80 -d --name devops.ge registry.devops.ge:5000/devops.ge
-#stop:
-	#docker stop devops.ge  && docker rm devops.ge
-#push:
-	#docker push registry.devops.ge:5000/devops.ge
-#dev:
-	#hugo server --bind 0.0.0.0 --theme=vec --buildDrafts -b localhost -p 5000
+dev:
+	docker-compose up
