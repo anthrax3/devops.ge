@@ -60,3 +60,12 @@ header li:hover, header .current{
   font-weight: 100;
   background-color: #ffdd57;
 }
+
+.setup a {
+  padding-left: 15px;
+}
+.setup a img{
+  border-right-style: dotted;
+  padding-right: 15px;
+  max-height: 40px;
+}

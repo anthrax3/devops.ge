@@ -7,11 +7,6 @@ services:
       - ./output/:/output
     environment:
       - HUGO_THEME=vec
-    restart: always
-  web:
-    image: sebp/lighttpd
-    volumes:
-      - ./output:/var/www/localhost/htdocs
+      - HUGO_WATCH=true
     ports:
-      - 80:80
-    restart: always
+      - 1313:1313
